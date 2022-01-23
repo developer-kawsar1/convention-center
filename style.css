@@ -1,0 +1,20 @@
+
+ .sliders {
+  width: 100vw;
+  /* height:100vh !important; */
+  height: auto !important;
+  
+} 
+.carousel-item img{
+    height: 584px !important;
+    
+}
+
+
+@media  (max-width:600px) {
+     .carousel-item img{
+    height: 384px !important;
+    
+    
+}
+}
