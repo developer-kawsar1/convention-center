@@ -42,19 +42,24 @@
 
 /* our sponsor */
 
-.our-sponsors .row div {
+.our-sponsors .row .custom {
   padding: 20px 10px;
-  border: 1px solid gray;
+
   margin: 100px;
   margin: 20px auto;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: center; 
-  transition: .4s;
-} 
-.our-sponsors .row div:hover {
-    border: 1px solid orangered;
+  transition: all .4s ease;
+}  
+.box{
+   margin: 30px auto !important; 
+
+  
+}
+.our-sponsors .row .custom:hover {
+    border: 1px solid orangered !important;
 }
 @media (max-width: 600px) {
   .carousel-item img {
